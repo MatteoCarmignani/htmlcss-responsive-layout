@@ -2,7 +2,9 @@ body {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-size: 20px;
 }
+
  /* Header */
 header h1 {
     color: orange;
@@ -28,6 +30,7 @@ header h1 {
  .sopratitolo {
     color: gray;
     margin-bottom: -21px;
+    padding-top: 55px;
  }
 
  /* YOUTUBE*/
@@ -41,16 +44,15 @@ header h1 {
 }
 
 .col-sx {
-    width: 60%;
+    width: 70%;
 }
 
 .tiramisu {
     max-width: 100%;
-    height: auto;
 }
 
 .col-dx {
-    width: 40%;
+    width: 30%;
     margin-left: 10px;
 }
 
@@ -73,6 +75,84 @@ button {
     background-color: white;
 }
 
+.banner {
+    margin-top: 40px;
+    width: 100%;
+}
+
+hr {
+    text-align: start;
+    width: 40px;
+    color: orange;
+    height: 2px;
+}
+
+/* PARAGRAFO */
+
+.divisorio {
+    background-color: orange;
+    width: 80px;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.paragrafo img {
+    max-width: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.clearfix { 
+  display: table;
+  content: '';
+  clear: both;
+  margin-bottom: 0px;
+}
+
+.paragrafo p {
+    padding-bottom: 80px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: lightpink;
+    font-size: 14px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 95%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sx {
+    width: 40%;
+}
+
+.footer-dx {
+    width: 40%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 35px;
+}
+
+li {
+    margin-left: 20px;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
 
 
 
@@ -90,6 +170,10 @@ button {
     width: 90%;
     }
 
+    .canc {
+        display: none;
+    }
+
     .row {
         display: block;
     }
@@ -97,6 +181,34 @@ button {
     .col-sx {
         width: 100%;
     }
- }
+
+    button {
+        padding: 3px 50px;
+    }
+
+    .col-dx {
+    padding-bottom: 50px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .footer-dx {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-sx {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
 
 
