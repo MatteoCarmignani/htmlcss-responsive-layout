@@ -1,0 +1,102 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ /* Header */
+header h1 {
+    color: orange;
+    font-size: 30px;
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+ /* Main */
+
+ main {
+    background-color: beige;
+ }
+
+ .main-container {
+    margin: 0 auto;
+    width: 70%;
+    /*debug
+    min-height: 300px;
+    background-color: aqua;*/
+ }
+
+ .sopratitolo {
+    color: gray;
+    margin-bottom: -21px;
+ }
+
+ /* YOUTUBE*/
+
+.youtube {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.col-sx {
+    width: 60%;
+}
+
+.tiramisu {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-dx {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.col-dx p {
+    margin-bottom: -8px;
+}
+
+/*SOCIAL*/
+
+.separatore {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 3px 30px;
+    border-radius: 35px;
+    margin-top: 30px;
+    border: 0px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+ @media screen and (max-width: 1019px) {
+
+    .main-container {
+    margin: 0 auto;
+    width: 90%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col-sx {
+        width: 100%;
+    }
+ }
+
+
